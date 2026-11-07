@@ -1,0 +1,8 @@
+# dsh-plugin-redteam bundle layer: inserts the redteam plugin row.
+# Loaded by `dsh plugin --profile <name> add @huanlin/dsh-plugin-redteam`.
+# The `name` is the package entry; Loader resolves it from profile node_modules.
+# The plugin has no config fields: the authorization source is not yet decided.
+- insert:
+    - id: redteam
+      name: '@huanlin/dsh-plugin-redteam'
+      config: {}
